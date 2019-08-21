@@ -11,7 +11,7 @@ Windows实例的账号名称是`Administrator`，Linux实例的账号名称是`r
 
 #### 如何启用Linux系统的root账号？
 
-阿里云默认已经开启root账号
+华为云默认已经开启root账号
 
 #### 如何上传文件到服务器？
 

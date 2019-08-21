@@ -63,3 +63,14 @@
    ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-mreview-websoft9.png)
 3. 修改评论，再保存提交 
    ![追评](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-mreview2-websoft9.png)
+
+## 服务监管
+
+服务类型商品为防买卖双方发生纠纷，平台提供服务监管机制，用户选择商品并下单支付后，应及时联系用户启动服务交付，流程参考下图：
+
+1. 登录华为控制台
+2. 访问：资源-> 我的云市场
+   ![进入后台云市场](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-rsmk-websoft9.png)
+3. 服务监管会列出当前已经购买的服务，选择一个服务“提交需求”
+   ![服务监管](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-rsmkjianguan-websoft9.png)
+4. 根据提示完成后续操作

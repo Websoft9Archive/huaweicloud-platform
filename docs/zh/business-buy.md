@@ -1,6 +1,6 @@
 # 购买
 
-下面简单的对阿里云云市场镜像类商品的购买（订阅）做一个说明：
+下面简单的对华为云云市场镜像类商品的购买（订阅）做一个说明：
 
 ## 方式
 
@@ -41,6 +41,13 @@ Websoft9公司在华为云平台中提供都是收费镜像，因为我们的盈
 ## 退订
 
 如果你想退订镜像，保留云服务器，只需通过[更换系统盘](/zh/stack-deployment.html#更换系统盘部署)操作即可
+
+1. 登录华为云控制台
+2. 在顶部的**费用**菜单下，打开“我的订单”
+   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-odlists-websoft9.png)
+3. 点击“订单列表”
+   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-odlists2-websoft9.png)
+4. 第一列即订单号
 
 ## 用户许可协议
 
