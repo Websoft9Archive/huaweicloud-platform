@@ -9,16 +9,17 @@
 | 方式                                                   | 操作说明                                                     |
 | ------------------------------------------------------ | ------------------------------------------------------------ |
 | 一个独立的SSH客户端                                    | 需要下载 [putty](https://putty.org/) 等客户端到本地电脑来连接服务器 |
-| Cloud Shell                                            | 免费的云命令控制台，可以管理所有华为云资源|
-| 管理终端 | 网页版的在线SSH工具 |
+| OpenStackClient                                            | 华为CLI工具，可以管理所有华为云资源|
+| 管理控制台远程登录 | 网页版的在线登录方式 |
 
 
-我们以 “**管理终端**” 为例描述如何连接Linux
+我们以 “**管理控制台远程登录**” 为例描述如何连接Linux
 
-1. 登录华为云控制台，找到需连接的ECS，点击“远程连接”
-   ![命令行连接](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-remoteconnectweb-websoft9.png)
-2. 根据系统提示设置连接密码 或 输入连接密码，进入管理终端
-3. 等待加载完成后，便可以使用管理终端运行命令
+1. 登录华为云控制台，找到需连接的弹性云服务器，点击“远程登录”
+   ![命令行连接](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-remoteconnectweb-websoft9.png)
+2. 进入管理终端
+   ![命令行连接](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-remoteconnectwebui-websoft9.png)
+3. 输入账号和密码，便可以使用管理控制台运行命令
 
 通过命令行连接服务器之后，获取数据库密码是最为常见的操作：
 

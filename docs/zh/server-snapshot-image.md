@@ -6,39 +6,32 @@
 
 此处不对快照和镜像进行抽象概念描述，只列出如下几个关键信息点：
 
-* 基于磁盘可以创建一个快照。
+* 基于磁盘可以创建一个快照
 
-  快照是对磁盘进行“拍照”，顾名思义就是备份某个时间点卷（磁盘）的数据，是一种备份手段
+  快照是对磁盘进行“拍照”，顾名思义就是备份某个时间点磁盘的数据，是一种备份手段
 
-* 基于快照可以创建一个镜像，而镜像无法直接转换成快照。
+* 基于快照可以创建一个磁盘
 
-* 基于镜像可以直接创建一个实例，基于实例也可以直接创建一个镜像
+* 基于服务器可以创建系统盘镜像、数据盘镜像、整机镜像
 
-总结：（磁盘-->快照） --> （镜像--实例）
+* 基于镜像可以直接创建一个服务器
+
+> 华为云目前不支持快照创建镜像，也不支持磁盘创建服务器
 
 ## 创建快照
 
-对于华为云来说，基于磁盘来创建快照
+对于华为云来说，可以基于磁盘来创建快照
 
-1. 登录到华为云控制台->ECS，点击**存储与快照**下的**云盘**
-2. 点击“创建快照”操作
-   ![img](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-disktosnapshot-websoft9.png)
-3. 根据提示完成后续步骤
+1. 登录到华为云服务器控制台
+2. 在云硬盘列出所有磁盘，对需要操作的磁盘进行“创建快照”操作
+    ![创建快照](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-dkcreatesnapshot-websoft9.png)
+3. 根据提示完成后续操作
 
 ## 创建镜像
 
-前面讲过，基于快照可以创建镜像，基于实例也可以创建镜像
+华为云目前不支持快照创建镜像，仅支持服务器创建镜像
 
-### 实例创建镜像
-
-1. 登录到华为云控制台->ECS，找到需要操作的目标实例
-2. 依次打开：更多->磁盘和镜像->创建自定义镜像
-   ![创建自定义镜像](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-createimage-websoft9.png)
-3. 根据提示完成后续操作
-
-### 快照创建镜像
-
-1. 登录到华为云控制台->ECS，点击**存储与快照**下的**快照**
-2. 选择所需的快照，对它进行“创建自定义镜像”操作
-   ![打开快照](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-snapshottoimage-websoft9.png)
+1. 登录到华为云控制台->弹性云服务器，找到需要操作的目标服务器
+2. 依次打开：更多->创建镜像
+   ![创建自定义镜像](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-createimage-websoft9.png)
 3. 根据提示完成后续操作
