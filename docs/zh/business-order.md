@@ -27,18 +27,18 @@
 点击[此处](http://support.websoft9.com/docs/faq/bz-order.html#开具发票)，了解关于开具发票的更多注意事项
 
 
-## 电子合同
+## 退订
 
-对于每一个镜像购买订单，我们提供电子合同下载
+### 退订镜像
 
-1. 登录华为云控制台
-2. 在顶部的**费用**菜单下，打开“我的订单”
-   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-odlists-websoft9.png)
-3. 开始申请合同
-   ![申请合同](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-ht-websoft9.png)
-4. 选择合同场景
-   ![合同场景](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-hts-websoft9.png)
-5. 完成申请后下载合同
+如果你想退订镜像，保留云服务器，只需通过[切换操作系统](/zh/stack-deployment.html#切换操作系统部署)操作即可
+
+
+### 退订人工服务
+
+退订人工服务，请登录华为云控制台，找到顶部菜“**资源**”，依次打开：云市场->退订管理
+
+   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-desbservices-websoft9.png)
 
 ## 退款
 
@@ -74,3 +74,16 @@
 3. 服务监管会列出当前已经购买的服务，选择一个服务“提交需求”
    ![服务监管](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-rsmkjianguan-websoft9.png)
 4. 根据提示完成后续操作
+
+## 电子合同
+
+目前华为云不支持镜像的电子合同。仅支持云资源的合同，申请流程参考：
+
+1. 登录华为云控制台
+2. 在顶部的**费用**菜单下，打开“我的订单”
+   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-odlists-websoft9.png)
+3. 开始申请合同
+   ![申请合同](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-ht-websoft9.png)
+4. 选择合同场景
+   ![合同场景](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-hts-websoft9.png)
+5. 完成申请后下载合同

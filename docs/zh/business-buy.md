@@ -9,7 +9,7 @@
 华为云平台中，由于实例采用的是按小时计费、包周包月包年等模式，镜像作为云服务器的一个组件，计费模型是一模一样的
 
 * 镜像部署到实例后，实例用多长时间=镜像购买多长时间
-* 需要取消镜像订阅，就需要通过更换系统盘将镜像替换掉
+* 需要取消镜像订阅，就需要通过[切换操作系统](/zh/stack-deployment.html#切换操作系统部署)将镜像替换掉
 
 ## 费用
 
@@ -23,31 +23,20 @@ Websoft9公司在华为云平台中提供都是收费镜像，因为我们的盈
 
 ``` text
 按小时：0.09/小时
-首月：20元/小时
-按月续费：20元/小时
-首年：180元/年
-按年续费：180元/年
+按月：20元/小时
+按年：200元/年
 ```
 
 系统会根据服务器的付费模式选择对应的镜像计费模式
 
 ## 查看
 
-1. 登录华为云控制台，找到云市场频道
-2. 默认列出“已购买的服务”
-   ![img](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-mkservices-websoft9.png)
-2. 每个服务可以看到：付费方式，服务商，联系方式，使用指南等信息
-
-## 退订
-
-如果你想退订镜像，保留云服务器，只需通过[更换系统盘](/zh/stack-deployment.html#更换系统盘部署)操作即可
-
 1. 登录华为云控制台
 2. 在顶部的**费用**菜单下，打开“我的订单”
    ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-odlists-websoft9.png)
 3. 点击“订单列表”
    ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-odlists2-websoft9.png)
-4. 第一列即订单号
+2. 每个服务可以看到：付费方式，服务商，联系方式，使用指南等信息
 
 ## 用户许可协议
 
