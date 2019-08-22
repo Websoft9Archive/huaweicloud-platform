@@ -7,10 +7,9 @@
 订单编号是开具发票、申请服务等非常重要的凭据。
 
 1. 登录阿里云控制台，打开云市场频道
-   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-mk-websoft9.png)
+   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-mk-websoft9.png)
 2. 点击“订单列表”
-   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-orderslist-websoft9.png)
-2. 第一列订单编号
+   ![img](http://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-mkservices-websoft9.png)第一列订单编号
 
 ## 发票
 

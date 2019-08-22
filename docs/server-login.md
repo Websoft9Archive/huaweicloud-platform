@@ -8,7 +8,13 @@ The Command is the basic operation of the Linux system. AWS provides two web-bas
 
 - Method 1: Log in to the AWS Portal, open the VM -> Operations, click "Run command"
 
-![Run command on AWS](https://libs.websoft9.com/Websoft9/DocsPicture/en/AWS/AWS-runcmd-websoft9.png)
+![Run command on AWS](http://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-runcmd-1-websoft9.png)
+
+![Run command on AWS](http://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-runcmd-2-websoft9.png)
+
+![Run command on AWS](http://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-runcmd-3-websoft9.png)
+
+
 
 - Method 1: Log in to the AWS Portal, open the VM -> Support+troubleshooting, click "Serial console"
 

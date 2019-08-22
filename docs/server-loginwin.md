@@ -5,7 +5,7 @@ You can connect to the Window server through the Remote Desktop Tool (MSTSC) on 
 Below is the steps of MSTSC connection
 
 1. Log in AWS Portal, get you **Public IP Address of VM**
-   ![Getting IP of AWS VM](https://libs.websoft9.com/Websoft9/DocsPicture/en/azure/azure-publicip-websoft9.png)
+   ![Getting IP of AWS VM](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-getpublicip-websoft9.png)
 
 2. Choose a way to open a local computer remote desktop (three-in-one):
 
