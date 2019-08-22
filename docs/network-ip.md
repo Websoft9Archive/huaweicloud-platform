@@ -15,5 +15,5 @@
 2. 在左侧导航栏，选择实例与镜像 > 实例。
 3. 找到更换公网IP地址的实例，停止
 4. 然后选择：更多-> 网络和安全组 -> 更换公网IP
-   ![img](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-changeip-websoft9.jpg)
+   ![img](http://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-changeip-websoft9.png)
 5. 根据提示完成后续操作
