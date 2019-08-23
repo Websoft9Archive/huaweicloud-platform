@@ -1,46 +1,53 @@
 # 订单
 
-在阿里云平台中，镜像部署完成后，就产生了相关的订单
+在华为云平台中，镜像部署完成后，就产生了相关的订单
 
-## 订单编号
+## 订单号
 
-订单编号是开具发票、申请服务等非常重要的凭据。
+订单号是开具发票、申请服务等非常重要的凭据。
 
-1. 登录阿里云控制台，打开云市场频道
-   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-mk-websoft9.png)
-2. 点击“订单列表”
-   ![img](http://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-mkservices-websoft9.png)第一列订单编号
+1. 登录华为云控制台
+2. 在顶部的**费用**菜单下，打开“我的订单”
+   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-odlists-websoft9.png)
+3. 点击“订单列表”
+   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-odlists2-websoft9.png)
+4. 第一列即订单号
 
 ## 发票
 
-用户在云市场的消费，均可以通过阿里云后台索取发票
+用户在云市场的消费，完善账户信息，且实名认证后，均可以通过华为云后台索取发票
 
-1. 登录阿里云控制台，进入：费用->发票栏目
-2. 系统默认进入“发票索取”，这时候请选择“云市场（非自营）”标签
-   ![发票索取](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-getinvoice-websoft9.png)
+1. 登录华为云控制台
+2. 在顶部的**费用**菜单下，打开“发票管理”
+   ![发票管理](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-feeinvmenu-websoft9.png)
 3. 根据提示完成发票索取
+   ![发票管理](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-feeinvdetails-websoft9.png)
 4. 等待5个工作日之后，进入**发票列表**下载电子发票
 
-点击[此处](http://support.websoft9.com/docs/faq/bz-order.html#开具发票)，了解关于开具发票的更多注意事项
+点击[此处](https://support.websoft9.com/docs/faq/bz-order.html#开具发票)，了解关于开具发票的更多注意事项
 
 
-## 电子合同
+## 退订
 
-对于每一个镜像购买订单，我们提供电子合同下载
+### 退订镜像
 
-1. 登录阿里云控制台，打开云市场频道后，点击“订单列表”
-   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-orderslist-websoft9.png)
-2. 在操作一栏，选择“申请合同”
-3. 等待合同生成后即可下载
+如果你想退订镜像，保留云服务器，只需通过[切换操作系统](/zh/stack-deployment.html#切换操作系统部署)操作即可
+
+
+### 退订人工服务
+
+退订人工服务，请登录华为云控制台，找到顶部菜“**资源**”，依次打开：云市场->退订管理
+
+   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-desbservices-websoft9.png)
 
 ## 退款
 
-根据阿里云云平台[商务政策](https://help.aliyun.com/knowledge_detail/37096.html)，结合我司实际情况，我们的关于退款的政策简述如下：
+根据华为云云平台[商务政策](https://support.huaweicloud.com/usermanual-billing/zh-cn_topic_0072297197.html)，结合我司实际情况，我们的关于退款的政策简述如下：
 
 * 5天之内，全额退款
 * 5天之后，一般不予以退款
 * 退款发起：客户更换系统盘，将Websoft9的镜像换成其他镜像
-* 退款流程：系统产生退款订单->Websoft9审批->阿里云审批->退款结果
+* 退款流程：系统产生退款订单->Websoft9审批->华为云审批->退款结果
 
 ## 评价
 
@@ -48,20 +55,14 @@
 
 对于使用过的镜像商品，您可以给与评价，千万记得给我们好评哦
 
-1. 登录阿里云控制台，打开云市场频道后，系统默认显示已购买的服务
-   ![立即评价](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-getdocfromorder-websoft9.png)
-2. 对没有评价的商品进行评价 
+1. 登录华为云控制台
+2. 在顶部的**费用**菜单下，打开“我的云市场”
+   ![我的云市场](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-mymk-websoft9.png)
+3. 打开已购买的服务，对商品进行“评价”操作 
+   ![已购买的服务](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-mymkss-websoft9.png)
+4. 立即评价
+   ![立即评价](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-reviewp-websoft9.png)
 
-
-## 修改评价
-
-评价是可以修改，参考步骤如下
-
-1. 登录阿里云控制台，打开云市场频道
-2. 在“订单列表”下选择一个订单，点击“待追评”
-   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-mreview-websoft9.png)
-3. 修改评论，再保存提交 
-   ![追评](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-mreview2-websoft9.png)
 
 ## 服务监管
 
@@ -73,3 +74,16 @@
 3. 服务监管会列出当前已经购买的服务，选择一个服务“提交需求”
    ![服务监管](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-rsmkjianguan-websoft9.png)
 4. 根据提示完成后续操作
+
+## 电子合同
+
+目前华为云不支持镜像的电子合同。仅支持云资源的合同，申请流程参考：
+
+1. 登录华为云控制台
+2. 在顶部的**费用**菜单下，打开“我的订单”
+   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-odlists-websoft9.png)
+3. 开始申请合同
+   ![申请合同](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-ht-websoft9.png)
+4. 选择合同场景
+   ![合同场景](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-hts-websoft9.png)
+5. 完成申请后下载合同

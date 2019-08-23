@@ -1,54 +1,86 @@
 # FAQ
 
-#### What Is the Username of VM?
+#### 实例的登录账号是什么？
 
-What Is the Username to Log In to an VM, refer to [Linux Connect](/server-login.md) and [Windows Connect](/server-loginwin.md)
+Windows实例的账号名称是`Administrator`，Linux实例的账号名称是`root`  
+更多详情本文档的 [账号密码](/zh/stack-accounts.md) 相关章节
 
-#### What is the database username and password?
+#### 数据库账号密码是什么？
 
-The username and password information is storaged on your VM, refer to [Username and Password](/stack-accounts.md) chapter     of this documentation.
+数据库账号密码默认存放在服务器中，参考本文档的[账号密码-数据库](/zh/stack-accounts.md)章节
 
-#### How to enable the root user of Linux?
+#### 如何启用Linux系统的root账号？
 
-By default, the root account is not enabled on AWS, in fact we can find a way to enable it.
+华为云默认已经开启root账号
 
-Refer to: [Linux Connect](/server-login.md) chapter of this documentation.
+#### 如何上传文件到服务器？
 
-#### How to upload Files to VM?
+对于Windows来说，**远程桌面**登录到服务器后，通过复制/粘贴就可以上传文件
 
-For Windows Server, you can Copy local files and Paste them to Server, it's very simple
-For Linux Server, you can use SFTP tools to login Server, and upload files
+对于Linux来说，通过 **SFTP** 连接服务器即可管理文件
 
-#### Can the image be refunded?
+#### 镜像可以退款吗？
 
-Image is billed hourly, half an hour is paid in half an hour, and an hour is paid in one hour...
+请参考[退款相关说明](/zh/business-order.html#退款)章节
 
-Therefore, no refund is allowed. If you do not use mirroring, please delete the image or stop the VM.
+#### Websoft9有免费镜像吗？
 
-#### What should I do if the VM's IP address changes after it restarts?
+我们在华为云的云市场上不提供免费镜像。如果您想免费使用我们的部署包，请通过 [Github](https://github.com/websoft9) 下载我们的自动化脚本，通过Ansible部署。
 
-It is recommended to change to a static IP or set up a DNS provided by AWS for the server.
+#### 对于Websoft9的部署包来说，通过Github脚本部署与华为云市场的镜像部署有区别吗？
 
-#### Does Websoft9 have a free image?
+部署结果是一样的，只是部署方式不同
 
-We do not offer free images on AWS. If you want to use our deployment package freely, please download our automation script via [Github] (https://github.com/websoft9) and deploy it via Ansible
+#### 如何列出Websoft9在华为云云市场上的所有产品？
 
-#### Is there a difference between the Github script deployment and the AWS cloud market image deployment for Websoft9?
+通过 [Websoft9华为云店铺](https://marketplace.huaweicloud.com/seller/e57458aa054b430fb2f82a066105f986) 查看我们在华为云上的所有镜像，也可以通过搜索关键字“websoft9”列出
 
-The deployment results are the same, but the deployment is different.
+#### 实例上的镜像是否可以更换？
 
-#### How to list all products of Websoft9 on AWS Marketplace
+支持，参考[更换系统盘](/zh/stack-deployment.html#更换系统盘部署)章节
 
-Visit this link  [Websoft9 Prodcuts](https://AWSmarketplace.microsoft.com/en-us/marketplace/apps?page=1&search=websoft9)  or search the keyword "websoft9" on AWS Marketplace
+#### 已经有了服务器怎么使用你们的镜像？
 
-#### Can the image on the VM be replaced?
+可以通过更换系统盘操作来使用我们的镜像，参考[更换系统盘](/zh/stack-deployment.html#更换系统盘部署)章节
 
-No
+#### 我能创建ECS的操作系统账号吗？
 
-#### Can I use a temporary disk (/dev/sdb1) to store data?
+创建ECS的时候只有默认账号名称，但采用默认账号登录到系统后，可以自行创建更多账号
 
-Do not use a temporary disk (/dev/sdb1) to store data. It is only used for temporary storage. There is a risk of losing data that cannot be recovered.
+#### 如何通过华为云控制台获取镜像文档？
 
-#### What are the format requirements for the username and password when creating VM?
+登录华为云控制台，依次打开：云市场->已购买的服务，列出所有服务以及文档链接
+![](https://libs.websoft9.com/Websoft9/DocsPicture/zh/aliyun/aliyun-getdocfromorder-websoft9.png)
 
-AWS has a clearer requirement for this, refer to:[AWS username and password requirements](https://docs.microsoft.com/en-us/AWS/virtual-machines/linux/faq#what-are-the-username-requirements-when-creating-a-vm)
+#### 华为云磁盘支持扩容吗？
+
+系统盘和数据盘均支持扩容。当前EVS只支持扩大容量，不支持缩小容量。
+
+#### 云硬盘备份与快照的区别？
+云硬盘备份以及快照为存储在云硬盘中的数据提供冗余备份，确保高可靠性，两者的主要区别[参考](https://support.huaweicloud.com/productdesc-evs/evs_01_0048.html)
+
+#### 一个服务器可以部署多个网站吗？
+
+一个服务器支持部署多个网站，只需要为每个网站配置一个对应的虚拟主机即可
+
+#### 你们的镜像安全吗？
+
+我们的镜像是经过华为云安全团队审核后才发布上架的，我认为有一定的安全保障
+
+#### 如何在无需付出高成本的情况下享受服务器的高带宽（>100M）?
+
+只要服务器的带宽付费方式为**按流量计费**即可享受最大300M的带宽，付费方式是后付费
+
+#### 切换操作系统有什么要注意的？
+
+切换操作系统提供以用户选择的镜像进行重装系统的功能。
+
+- 切换操作系统会清除系统盘数据，包括系统盘上的系统分区和所有其它分区，请做好数据备份。
+- 切换操作系统成功后云服务器会自动开机。
+- 部分操作系统不支持挂载SCSI磁盘，切换操作系统后，可能会导致原弹性云服务器上挂载的SCSI磁盘不可用。查看支持列表。
+- 如果云服务器一键式重置密码功能未生效，建议安装密码重置插件开启一键重置密码功能。如何安装。
+- 切换操作系统后，当前操作系统内的个性化设置（如DNS、主机名等）将被重置，需重新配置。
+
+#### 如何试用Websoft9的镜像？
+
+部分镜像的商品详情页面提供了官方的演示地址。如果没有演示地址，请按需购买（按小时付费）试用，只需付出几毛钱/小时的成本。

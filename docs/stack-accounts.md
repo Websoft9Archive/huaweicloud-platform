@@ -37,5 +37,5 @@
 
 ## 操作系统
 
-阿里云Linux系统默认的账号名称为：`root`  
-阿里云Windows系统默认的账号名称为：`administrator`
+华为云Linux系统默认的账号名称为：`root`  
+华为云Windows系统默认的账号名称为：`administrator`

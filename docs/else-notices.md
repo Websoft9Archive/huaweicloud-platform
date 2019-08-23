@@ -1,6 +1,5 @@
-# Notices
+# 公告
 
-#### 5-20-2018 Image published notice
+#### 2016-6-20 上架通知
 
-The first 5 images of Websoft9 were released on the AWS Marketplace
-
+Websoft9第一批30个镜像在华为云云市场上发布

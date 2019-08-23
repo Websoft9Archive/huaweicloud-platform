@@ -24,7 +24,7 @@
    ![发票管理](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-feeinvdetails-websoft9.png)
 4. 等待5个工作日之后，进入**发票列表**下载电子发票
 
-点击[此处](http://support.websoft9.com/docs/faq/bz-order.html#开具发票)，了解关于开具发票的更多注意事项
+点击[此处](https://support.websoft9.com/docs/faq/bz-order.html#开具发票)，了解关于开具发票的更多注意事项
 
 
 ## 退订

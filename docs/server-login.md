@@ -4,21 +4,15 @@ There are two ways to connect to a Linux server: command line and SFTP:
 
 ## Connect by Command
 
-The Command is the basic operation of the Linux system. AWS provides two web-based SSH tools that can be logged in without an account.
+The Command is the basic operation of the Linux system. HUAWEI CLOUD provides two web-based SSH tools that can be logged in without an account.
 
-- Method 1: Log in to the AWS Portal, open the VM -> Operations, click "Run command"
+Log in to the HUAWEI CLOUD Console, open the ECS -> Operations, click "Remote Login"
 
-![Run command on AWS](http://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-runcmd-1-websoft9.png)
+![Run command on HUAWEI CLOUD](http://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-runcmd-1-websoft9.png)
 
-![Run command on AWS](http://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-runcmd-2-websoft9.png)
+![Run command on HUAWEI CLOUD](http://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-runcmd-2-websoft9.png)
 
-![Run command on AWS](http://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-runcmd-3-websoft9.png)
-
-
-
-- Method 1: Log in to the AWS Portal, open the VM -> Support+troubleshooting, click "Serial console"
-
-![Run command on AWS](https://libs.websoft9.com/Websoft9/DocsPicture/en/AWS/AWS-runcmd2-websoft9.png)
+![Run command on HUAWEI CLOUD](http://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-runcmd-3-websoft9.png)
 
 > If you are not used to using the online SSH command line tool provided by the cloud platform, download the SSH client tool (e.g [putty](https://putty.org/)), configure the login information and then connect to Linux.
 

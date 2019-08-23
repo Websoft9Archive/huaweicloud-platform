@@ -1,21 +1,21 @@
-# Troubleshooting
+# 故障处理
 
-Below are the most common problems caused by failures or setup errors.
+下面列出最常见的故障或设置错误导致的问题。
 
-If you have already identified the cause of the problem as a VM, please read [AWS Virtual Machine Troubleshooting](https://docs.microsoft.com/en-us/AWS/virtual-machines/troubleshooting/).
+如果您已经明确问题原因是云服务器产生的，那么请直接阅读[华为云实例故障排查](https://support.huaweicloud.com/trouble-ecs/zh-cn_topic_0171671694.html)。
 
-#### SFTP can't connect?
+#### SFTP无法登录？
 
-Check that the account number and password are correct. Please ensure that port 22 of [Server Security Group](/network-safegroup.md) is enabled.
+检查账号和密码是正确，请保证[服务器安全组](/zh/network-safegroup.md)的22端口是开启的
 
-#### Windows Remote Desktop Connection failed?
+#### Windows远程桌面连接失败？
 
-Check that the account number and password are correct. Please ensure that port 3389 of [Server Security Group](/network-safegroup.md) is enabled.
+检查账号和密码是正确，请保证[服务器安全组](/zh/network-safegroup.md)的3389端口是开启的
 
-#### The VM not be restarted?
+#### 实例无法重启？
 
-Please contact AWS to repair it
+请联系华为云官方修复
 
-#### Http://public IP can not open the software initialization interface?
+#### http://公网IP 无法打开软件的初始化界面？
 
-Check if the required software is installed, please ensure that port 80 of [Server Security Group](/network-safegroup.md) is enabled.
+检查是否安装了所需的软件，请保证[服务器安全组](/zh/network-safegroup.md)的80端口是开启的
