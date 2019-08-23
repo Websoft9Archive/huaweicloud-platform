@@ -19,7 +19,7 @@ Five parts for this documentation:
 
 ## Special term
 
-The AWS platform has some special terms, listed below:
+The HUAWEI CLOUD platform has some special terms, listed below:
 
 * ECS is same with Cloud Server or Instance or Visual Machine
 * HUAWEI CLOUD Console
