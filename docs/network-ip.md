@@ -4,7 +4,7 @@
 
 1. 登录到华为云控制台->ECS
 2. 打开要查看公网IP的实例，我们会看到 **IP地址（公）** 
-   ![查看公网IP](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-getpublicip-websoft9.png)
+   ![查看公网IP](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-getpublicip-websoft9.png)
 3. 如果实例没有公网IP地址项（或为空），需挂载一个弹性公网IP（[参考文档](https://help.aliyun.com/document_detail/72125.html)）
 
 ## 绑定

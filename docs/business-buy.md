@@ -33,9 +33,9 @@ Websoft9公司在华为云平台中提供都是收费镜像，因为我们的盈
 
 1. 登录华为云控制台
 2. 在顶部的**费用**菜单下，打开“我的订单”
-   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-odlists-websoft9.png)
+   ![订单列表](https://libs-websoft9-com.oss-cn-qingdao.aliyuncs.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-odlists-websoft9.png)
 3. 点击“订单列表”
-   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-odlists2-websoft9.png)
+   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-odlists2-websoft9.png)
 2. 每个服务可以看到：付费方式，服务商，联系方式，使用指南等信息
 
 ## 用户许可协议

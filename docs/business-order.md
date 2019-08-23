@@ -8,9 +8,9 @@
 
 1. 登录华为云控制台
 2. 在顶部的**费用**菜单下，打开“我的订单”
-   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-odlists-websoft9.png)
+   ![订单列表](https://libs-websoft9-com.oss-cn-qingdao.aliyuncs.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-odlists-websoft9.png)
 3. 点击“订单列表”
-   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-odlists2-websoft9.png)
+   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-odlists2-websoft9.png)
 4. 第一列即订单号
 
 ## 发票
@@ -19,9 +19,9 @@
 
 1. 登录华为云控制台
 2. 在顶部的**费用**菜单下，打开“发票管理”
-   ![发票管理](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-feeinvmenu-websoft9.png)
+   ![发票管理](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-feeinvmenu-websoft9.png)
 3. 根据提示完成发票索取
-   ![发票管理](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-feeinvdetails-websoft9.png)
+   ![发票管理](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-feeinvdetails-websoft9.png)
 4. 等待5个工作日之后，进入**发票列表**下载电子发票
 
 点击[此处](https://support.websoft9.com/docs/faq/bz-order.html#开具发票)，了解关于开具发票的更多注意事项

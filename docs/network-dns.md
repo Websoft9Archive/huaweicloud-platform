@@ -7,7 +7,7 @@
 ## 域名解析
 
 1. 购买域名(也称之为注册域名)，并完成实名制认证
-   ![域名购买](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-buydomain-websoft9.png)
+   ![域名购买](https://libs-websoft9-com.oss-cn-qingdao.aliyuncs.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-buydomain-websoft9.png)
 2. 登录华为云控制台，打开域名列表，在所需操作的域名上点击“解析”
    ![解析域名](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-dns-websoft9.png)
 3. 增加一个A记录：将域名（或子域名）指向IP的操作(下图示例)

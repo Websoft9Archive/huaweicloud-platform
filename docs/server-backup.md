@@ -21,16 +21,20 @@
 云硬盘备份提供对云硬盘的基于快照技术的数据保护。
 
 1. 登录到华为云备份服务控制台
+
 2. 购买云硬盘备份存储库
    > 存储库是存放服务器和磁盘产生的备份副本的容器，您可以将服务器和磁盘绑定至存储库并绑定备份策略，为您的数据提供保障。
 
-   ![云硬盘备份存储库](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-cbrbuydisks-websoft9.png)
+   ![云硬盘备份存储库](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-createcsbs-websoft9.png)
 
 3. 购买过程中可以立即选择所需备份的硬盘、设置备份策略，也可以跳过以后再设置
    ![云硬盘备份存储库](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-cbrbuydiskss-websoft9.png)
 
 2. 备份策略设置
-   ![云硬盘备份策略](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-cbrdiskpl-websoft9.png)
+   
+   ![云服务器备份策略](https://libs-websoft9-com.oss-cn-qingdao.aliyuncs.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-snapshotstart-websoft9.png)
+   
+   ![创建快照](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-snapshotconf-websoft9.png)
 
 ### 云服务器备份
 
@@ -45,7 +49,10 @@
    ![云服务器备份存储库](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-cbrbuyecsbks-websoft9.png)
 
 2. 备份策略设置
-    ![云服务器备份策略](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-cbrecspl-websoft9.png)
+    
+    ![云服务器备份策略](https://libs-websoft9-com.oss-cn-qingdao.aliyuncs.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-snapshotstart-websoft9.png)
+    
+    ![云服务器备份策略](http://libs-websoft9-com.oss-cn-qingdao.aliyuncs.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-snapshotconf-websoft9.png)
 
 ## 手工备份
 
