@@ -50,7 +50,7 @@ Windows实例的账号名称是`Administrator`，Linux实例的账号名称是`r
 #### 如何通过华为云控制台获取镜像文档？
 
 登录华为云控制台，依次打开：云市场->已购买的服务，列出所有服务以及文档链接
-![](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud.getdocfromorder-websoft9.png)
+![](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-getdocfromorder-websoft9.png)
 
 #### 华为云磁盘支持扩容吗？
 

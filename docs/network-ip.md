@@ -14,7 +14,7 @@
 1. 登录云服务器管理控制台。
 2. 点击服务器名称，进入服务器详情页面。
 3. 找到“弹性公网IP”标签，找到“绑定弹性公网IP”按钮
-   ![img](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-bindeip-websoft9.png)
+   ![img](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-bindeip-websoft9.png)
 4. 根据提示完成后续操作
 
 > 如果没有可用的弹性公网IP，需要实现购买弹性公网IP

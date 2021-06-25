@@ -22,7 +22,7 @@
 1. 登录到华为云控制台，找到所需操作的云服务器
 2. 关机
 3. 点击下面的“重置密码”，输入新密码
-   ![调整配置](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-resetpw-websoft9.png)
+   ![调整配置](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-resetpw-websoft9.png)
 4. 重新开机，方可生效
 
 ## 升降配
@@ -31,7 +31,7 @@ ECS的配置可以调整，具体操作如下：
 
 1. 登录到华为云控制台，找到所需操作的云服务器
 2. 点击右侧的“升降配”，选择一种变更方案
-   ![调整配置](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-changeecsconfigure-websoft9.png)
+   ![调整配置](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-changeecsconfigure-websoft9.png)
 3. 依据相关的操作向导完成变更
 
 ## 重装系统
@@ -42,8 +42,8 @@ ECS的配置可以调整，具体操作如下：
 1. 登录到华为云控制台，找到所需操作的云服务器
 2. 关机
 2. 依次打开：更多->重装系统  
-   ![重装系统](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-iniecs-websoft9.png)
+   ![重装系统](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-iniecs-websoft9.png)
 3. 根据系统提示完成后续步骤
-   ![重装系统详情](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-iniecsdetail-websoft9.png)
+   ![重装系统详情](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-iniecsdetail-websoft9.png)
 
 > 建议仔细理解**切换操作系统**和**重装系统**的差异

@@ -8,7 +8,7 @@
 
 ## 自动备份
 
-自动备份就是使用华为云 [**云备份服务**](https://support.huaweicloud.com/qs-cbr)（Cloud Backup and Recovery，以下简称"CBR"）
+自动备份就是使用华为云 [**云备份服务**](https://www.huaweicloud.com/product/cbr.html)（Cloud Backup and Recovery，以下简称"CBR"）
 
 ![云备份](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-cbr-websoft9.png)
 

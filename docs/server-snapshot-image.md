@@ -24,7 +24,7 @@
 
 1. 登录到华为云服务器控制台
 2. 在云硬盘列出所有磁盘，对需要操作的磁盘进行“创建快照”操作
-    ![创建快照](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-dkcreatesnapshot-websoft9.png)
+    ![创建快照](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-dkcreatesnapshot-websoft9.png)
 3. 根据提示完成后续操作
 
 ## 创建镜像
@@ -33,5 +33,5 @@
 
 1. 登录到华为云控制台->弹性云服务器，找到需要操作的目标服务器
 2. 依次打开：更多->创建镜像
-   ![创建自定义镜像](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-createimage-websoft9.png)
+   ![创建自定义镜像](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-createimage-websoft9.png)
 3. 根据提示完成后续操作

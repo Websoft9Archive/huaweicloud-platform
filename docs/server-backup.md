@@ -8,9 +8,9 @@
 
 ## 自动备份
 
-自动备份就是使用华为云 [**云备份服务**](https://support.huaweicloud.com/qs-cbr)（Cloud Backup and Recovery，以下简称"CBR"）
+自动备份就是使用华为云 [**云备份服务**](https://www.huaweicloud.com/product/cbr.html)（Cloud Backup and Recovery，以下简称"CBR"）
 
-![云备份](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-cbr-websoft9.png)
+![云备份](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-cbr-websoft9.png)
 
 华为云备份的基本原理是基于快照技术的数据保护，华为云备份针对业务场景，包含云服务器备份、云硬盘备份、应用备份、存储备份、VMware备份功能。
 
@@ -28,7 +28,7 @@
    ![云硬盘备份存储库](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-createcsbs-websoft9.png)
 
 3. 购买过程中可以立即选择所需备份的硬盘、设置备份策略，也可以跳过以后再设置
-   ![云硬盘备份存储库](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-cbrbuydiskss-websoft9.png)
+   ![云硬盘备份存储库](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-cbrbuydiskss-websoft9.png)
 
 2. 备份策略设置
    
@@ -43,10 +43,10 @@
 1. 登录到华为云备份服务控制台
 
 2. 购买云服务器备份存储库
-   ![云服务器备份存储库](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-cbrbuyecsbk-websoft9.png)
+   ![云服务器备份存储库](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-cbrbuyecsbk-websoft9.png)
 
 3. 购买过程中可以立即选择所需备份的服务器、设置备份策略，也可以跳过以后再设置
-   ![云服务器备份存储库](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-cbrbuyecsbks-websoft9.png)
+   ![云服务器备份存储库](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-cbrbuyecsbks-websoft9.png)
 
 2. 备份策略设置
     
@@ -64,12 +64,12 @@
 
 1. 登录到华为云服务器控制台
 2. 在云硬盘列出所有磁盘，对需要操作的磁盘进行“创建快照”操作
-    ![创建快照](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-dkcreatesnapshot-websoft9.png)
+    ![创建快照](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-dkcreatesnapshot-websoft9.png)
 3. 根据提示完成后续操作
 
 ### 创建镜像
 
 1. 登录到华为云控制台->弹性云服务器，找到需要操作的目标服务器
 2. 依次打开：更多->创建镜像
-   ![创建自定义镜像](https://libs.websoft9.com/Websoft9/DocsPicture/zh/huaweicloud/huaweicloud-createimage-websoft9.png)
+   ![创建自定义镜像](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-createimage-websoft9.png)
 3. 根据提示完成后续操作

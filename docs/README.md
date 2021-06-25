@@ -1,7 +1,7 @@
 ---
 home: false
 heroImage: /hero.png
-actionText: Quik Start →
+actionText: Quick Start →
 actionLink: /
 ---
 
