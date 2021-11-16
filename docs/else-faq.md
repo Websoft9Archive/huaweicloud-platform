@@ -39,6 +39,10 @@ Windows实例的账号名称是`Administrator`，Linux实例的账号名称是`r
 
 支持，参考[更换系统盘](/zh/stack-deployment.html#更换系统盘部署)章节
 
+#### 鲲鹏服务器如何适配软件？
+
+参考：[鲲鹏开发套件](https://support.huaweicloud.com/function-kunpengdevps/function-kunpengdevps.html)
+
 #### 已经有了服务器怎么使用你们的镜像？
 
 可以通过更换系统盘操作来使用我们的镜像，参考[更换系统盘](/zh/stack-deployment.html#更换系统盘部署)章节
