@@ -1,20 +1,19 @@
-# 公网IP地址
+# Elastic IP
 
-## 查看
+[Elastic IP](https://support.huaweicloud.com/en-us/productdesc-eip/overview_0001.html) is the IP address for Internet access, that mean it the same with Internet IP
 
-1. 登录到华为云控制台->ECS
-2. 打开要查看公网IP的实例，我们会看到 **IP地址（公）** 
-   ![查看公网IP](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-getpublicip-websoft9.png)
-3. 如果实例没有公网IP地址项（或为空），需挂载一个弹性公网IP（[参考文档](https://help.aliyun.com/document_detail/72125.html)）
+## Get IP
 
-## 绑定
+1. Login to Console, list all ECS from【Cloud Server Console】
 
-如果云服务器没有弹性IP，具体操作步骤如下：
+2. You can get the **EIP** from the IP Address column
+   ![get EIP](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/hwcloud-getpublicip-websoft9.png)
 
-1. 登录云服务器管理控制台。
-2. 点击服务器名称，进入服务器详情页面。
-3. 找到“弹性公网IP”标签，找到“绑定弹性公网IP”按钮
-   ![img](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-bindeip-websoft9.png)
-4. 根据提示完成后续操作
+## Change IP
 
-> 如果没有可用的弹性公网IP，需要实现购买弹性公网IP
+1. Login to Console, list all ECS from【Cloud Server Console】
+
+2. Go to the detail page of ECS and click 【EIPs】 tab
+   ![change IP](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-bindeip-websoft9.png)
+
+3. Click 【Bind EIP】 button to complete this solution

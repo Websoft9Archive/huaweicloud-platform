@@ -10,14 +10,12 @@
 
 | 名称                    | 用户名     | 密码           | 可视化管理地址           |
 | ----------------------- | ---------- | -------------- | ------------------------ |
-| MySQL/Mariadb PHP环境中 | root       | 123456 | http://公网IP/phpmyadmin |
-| MySQL/Mariadb 其他      | root       | 123456  | http://公网IP:9090       |
-| PostgreSQL              | postgres   | 123456  | http://公网IP:9090       |
-| Mongodb                 | adminmongo | 123456  | http://公网IP:9091       |
-| Oracle                  | system     | 123456 | 暂无                     |
-| SQLServer               | sa         | websoft9!  | 使用客户端管理           |
-
-如果以上密码不可用，那么请通过下面的方案获取密码
+| MySQL/Mariadb PHP环境中 | root       | 服务器中获取 | http://公网IP/phpmyadmin |
+| MySQL/Mariadb 其他      | root       | 服务器中获取  | http://公网IP:9090       |
+| PostgreSQL              | postgres   | 服务器中获取  | http://公网IP:9090       |
+| Mongodb                 | adminmongo | 服务器中获取  | http://公网IP:9091       |
+| Oracle                  | system     | 服务器中获取 | 暂无                     |
+| SQLServer               | sa         | 自动设置 | 使用客户端管理           |
 
 ### 获取数据库密码
 
@@ -34,8 +32,7 @@
 服务器的桌面上会有打开数据库密码文件的快捷方式
 
 
-
 ## 操作系统
 
-华为云Linux系统默认的账号名称为：`root`  
-华为云Windows系统默认的账号名称为：`administrator`
+华为云 Linux 系统默认的账号名称为：`root`  
+华为云 Windows 系统默认的账号名称为：`administrator`

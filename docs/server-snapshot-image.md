@@ -1,37 +1,33 @@
-# 快照与镜像
+# Snapshot and Image
 
-之所以我们把快照和镜像放在一起描述，是因为这两者有一定的关联，甚至说有互生关系。
+The reason we put snapshots and image together is because there is a certain relationship between the two, and even there is an alternate relationship.
 
-## 关系
+## Relationship
 
-此处不对快照和镜像进行抽象概念描述，只列出如下几个关键信息点：
+A snapshot is a "photographing" of a disk. As the name suggests, it is to back up the data of a disk at a certain point in time. It is a backup method.  
 
-* 基于磁盘可以创建一个快照
+Following key information points are listed:
 
-  快照是对磁盘进行“拍照”，顾名思义就是备份某个时间点磁盘的数据，是一种备份手段
+* A snapshot can be created based on the disk.
+* A image can be created by snapshot, and the image cannot be directly converted into a snapshot.
+* You can create a ECS directly based on Image, and you can create a image directly based on the ECS.
 
-* 基于快照可以创建一个磁盘
+## Create Snapshot
 
-* 基于服务器可以创建系统盘镜像、数据盘镜像、整机镜像
+You can create snapshot for disk to backup
 
-* 基于镜像可以直接创建一个服务器
+1. Login to Console, go to: 【Cloud Server Console】>【Elastic Volume Service	】>【Disk】
 
-> 华为云目前不支持快照创建镜像，也不支持磁盘创建服务器
+2. Select one Disk which you want to create snapshot for it
+   ![Create snapshot](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-dkcreatesnapshot-websoft9.png)
 
-## 创建快照
+3. Complete the next steps
 
-对于华为云来说，可以基于磁盘来创建快照
+## Create Image
 
-1. 登录到华为云服务器控制台
-2. 在云硬盘列出所有磁盘，对需要操作的磁盘进行“创建快照”操作
-    ![创建快照](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-dkcreatesnapshot-websoft9.png)
-3. 根据提示完成后续操作
+1. Login to Console, list all ECS from 【Cloud Server Console】
 
-## 创建镜像
-
-华为云目前不支持快照创建镜像，仅支持服务器创建镜像
-
-1. 登录到华为云控制台->弹性云服务器，找到需要操作的目标服务器
-2. 依次打开：更多->创建镜像
-   ![创建自定义镜像](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-createimage-websoft9.png)
-3. 根据提示完成后续操作
+2. Open the menu: 【More】>【Manage Image/Disk】>【Create Image】
+   ![Create Image](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-createimage-websoft9.png)
+   
+3. Complete the next steps

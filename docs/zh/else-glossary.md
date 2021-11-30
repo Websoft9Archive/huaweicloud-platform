@@ -1,5 +1,7 @@
 # 词汇表
 
+以下词汇主要摘抄官方文档 [产品术语](https://support.huaweicloud.com/pcre_gls/?product=ecs) 章节
+
 #### 华为云控制台
 
 华为云控制台，就是用户创建、管理云资源，查看成本费用的后台门户。

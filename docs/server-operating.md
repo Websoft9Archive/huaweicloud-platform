@@ -1,49 +1,52 @@
-# 操作
+# Manage
 
-下面是一些常见的ECS操作
+These steps for you to manage ECS
 
-## 启动、停止和终止
+## Start, Stop and Delete
 
-在ECS控制台可以对实例状态进行修改，包括：
+You can manage the ECS on Console, includes:
 
-- 开机
-- 关机
-- 重启
-- 删除
-- 转包周期
+- Start
+- Stop
+- Restart
+- Delete
+- Modify ECS Specifications
 
-删除适用于按量购买的服务器  
-转包周期，即按量付费模式转换成包年包月付费模式
+Release ECS mean delete it, suitable for a pay-as-you-go instance that is not locked
 
-## 重置密码
+## Reset Password
 
-忘记密码，可以通过华为云控制台重置：
+You can reset the ECS's password by the below method: 
 
-1. 登录到华为云控制台，找到所需操作的云服务器
-2. 关机
-3. 点击下面的“重置密码”，输入新密码
-   ![调整配置](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-resetpw-websoft9.png)
-4. 重新开机，方可生效
+1. Login to HUAWEI CLOUD console, list the ECS
 
-## 升降配
+2. Open the menu:【More】>【Reset Password】
+   ![reset password](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-resetpw-websoft9.png)
 
-ECS的配置可以调整，具体操作如下：
+3. Restart the ECS and it take effect
 
-1. 登录到华为云控制台，找到所需操作的云服务器
-2. 点击右侧的“升降配”，选择一种变更方案
-   ![调整配置](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-changeecsconfigure-websoft9.png)
-3. 依据相关的操作向导完成变更
+## Modify ECS Specifications
 
-## 重装系统
+If you want to change the ECS configuration for business, you should Upgrade or Downgrade it
 
-如果你想将服务器恢复到刚安装之时的状态，就需要用到**重装系统**操作。  
-重装操作系统提供以原镜像进行系统重装的功能
+1. Login to HUAWEI CLOUD console, list the ECS
 
-1. 登录到华为云控制台，找到所需操作的云服务器
-2. 关机
-2. 依次打开：更多->重装系统  
-   ![重装系统](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-iniecs-websoft9.png)
-3. 根据系统提示完成后续步骤
-   ![重装系统详情](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-iniecsdetail-websoft9.png)
+2. Open the 【ModifySpecifications】menu of the target ECS
+   ![upgrade](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-changeecsconfigure-websoft9.png)
 
-> 建议仔细理解**切换操作系统**和**重装系统**的差异
+3. You can choose from the following upgrade or downgrade schemes
+
+## Change/Reinstall OS
+
+If you want to recover to ECS to the state of first installation, you need 【Change OS】operation: 
+
+1. Login to HUAWEI CLOUD console, list the ECS
+
+2. Stop your the target ECS
+
+2. Open the menu: 【More】>【Manage Image/Disk】>【Change OS】
+   ![Reset System disk](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-iniecs-websoft9.png)
+
+3. Go to the next steps
+
+> Could you distinguish **Change OS** and **Reinstall OS**?

@@ -1,31 +1,25 @@
-# 云市场
+# Marketplace
 
-华为云云市场是由华为云的合作伙伴提供的软件产品和解决方案库，主要为商业IT软件和服务感兴趣的IT专业人员和云开发人员而设计。
+[Alibaba Cloud Marketplace](https://marketplace-intl.huaweicloud.com) is a software transaction and delivery platform provided by Alibaba Cloud. It supports image and SaaS products.
 
-Websoft9是华为云云市场的合作伙伴，我们在华为云上发布了数百款镜像产品，供用户在实例上一键部署。
+Alibaba Cloud Marketplace have two distribution: [Chinese](https://marketplace.huaweicloud.com) | [Global](https://marketplace-intl.huaweicloud.com) 
 
-华为云云市场有两个版本：
+Websoft9 is the major ISV at Alibaba Cloud Marketplace, we have publish 200+ product for users. We can provide professional support for Chinese and English languages service.
 
-* [华为云云市场](https://marketplace.huaweicloud.com/)
-* [HUAWEI CLOUD Marketplace](https://marketplace-intl.huaweicloud.com/)
+- [Websoft9 on 阿里云](https://marketplace.huaweicloud.com/seller/e57458aa054b430fb2f82a066105f986)
+- [Websoft9 on HUAWEI CLOUD](https://marketplace-intl.huaweicloud.com/seller/a0d01460031d46639391c78a61de9a0f)
 
-华为云云市场是面向中文用户的云市场
-HUAWEI CLOUD Marketplace面向全球英文市场的云市场
+## Regional restrictions
 
-Websoft9的镜像目前在两个市场均有发布，我们是全球为数不多能够支持中英文市场的镜像提供商：
+If you want to use HUAWEI CLOUD Chinese Marketplace, you need to:  
 
-- [Websoft9 华为云店铺](https://marketplace.huaweicloud.com/seller/e57458aa054b430fb2f82a066105f986)
-- [Websoft9 on HUAWEI CLOUD Marketplace](https://marketplace-intl.huaweicloud.com/seller/a0d01460031d46639391c78a61de9a0f)
+1. Register HUAWEI CLOUD Account as Chinese region
 
-## 地区限制
+2. Bind your Chinese credit card
 
-中国地区用户使用HUAWEI CLOUD Marketplace需要：
+## Support
 
-1. 注册账号流程中，有一个增加付款账号，建议选择香港地区
-2. 然后绑定非大陆地区信用卡
+We provide professional technology support for our user who subscribed our product on Marketplace, you can get help by:
 
-## 技术支持
-
-通过云市场使用我们的镜像产品，我们会提供标准的技术支持：help@websoft9.com
-
-更多支持请访问：https://support.websoft9.com
+- help@websoft9.com
+- https://support.websoft9.com

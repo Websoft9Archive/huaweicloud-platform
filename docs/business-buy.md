@@ -1,45 +1,42 @@
-# 购买
+# Subscriptions
 
-下面简单的对华为云云市场镜像类商品的购买（订阅）做一个说明：
+Below is the simple guide for subscriptions on HUAWEI CLOUD Marketplace:
 
-## 方式
+## About
 
-购买=订阅，具体的表现形式就是 [部署镜像](/zh/stack-deployment.md)
+Subscription means buying, when you have completed [Image deployment on HUAWEI CLOUD](/stack-deployment.md) that means you have a subscription for this image.
 
-华为云平台中，由于实例采用的是按小时计费、包周包月包年等模式，镜像作为云服务器的一个组件，计费模型是一模一样的
+In the HUAWEI CLOUD, the image is charged by Usage Quantity the same with ECS Usage Quantity:
 
-* 镜像部署到实例后，实例用多长时间=镜像购买多长时间
-* 需要取消镜像订阅，就需要通过[切换操作系统](/zh/stack-deployment.html#切换操作系统部署)将镜像替换掉
+- Once the image is used on ECS, the image Usage Quantity= ECS Usage Quantity
+- Need to cancel the image subscription, you need to delete the corresponding ECS
+- The ECS stops running and the image stops charging
 
-## 费用
+## Fee
 
-华为云云市场中，有免费的镜像，也有收费的镜像。
+On HUAWEI CLOUD Marketplace, there are free image and paid image.  
 
-Websoft9公司在华为云平台中提供都是收费镜像，因为我们的盈利模式就是通过收费，为有意愿付费的客户提供企业级开源镜像以及技术支持服务。
+Websoft9 provides paid image on the HUAWEI CLOUD platform, our profit model is to provide enterprise-level open source image and technical support services to customers who are willing to pay through fees.
 
-> 如果您希望免费使用我们的产品，请部署我们的Ansible自动化脚本（[Github上的主页](https://github.com/websoft9)）
+> If you want to free to use our product, please refer to our [Github Project](https://github.com/websoft9)）
 
-根据华为云的镜像商品定价模型，我们目前的计费方式为：
+Our image cost will be flexibly priced based on the number of virtual machine CPU cores. The larger the number of cores, the higher the price generally 
 
-``` text
-按小时：0.09/小时
-按月：20元/小时
-按年：200元/年
-```
+## List Subscriptions
 
-系统会根据服务器的付费模式选择对应的镜像计费模式
+1. Login to HUAWEI Cloud Console
+2. Go to the top menu: 【Resources】>【My MarketPlace】, list all the Subscriptions
+   ![Subscriptions](https://libs-websoft9-com.oss-cn-qingdao.aliyuncs.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-odlists-websoft9.png)
 
-## 查看
+3. Click 【View Resource Details】  
+   ![View Resource Details](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-odlists2-websoft9.png)
 
-1. 登录华为云控制台
-2. 在顶部的**费用**菜单下，打开“我的订单”
-   ![订单列表](https://libs-websoft9-com.oss-cn-qingdao.aliyuncs.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-odlists-websoft9.png)
-3. 点击“订单列表”
-   ![订单列表](https://libs.websoft9.com/Websoft9/DocsPicture/en/huaweicloud/huaweicloud-odlists2-websoft9.png)
-2. 每个服务可以看到：付费方式，服务商，联系方式，使用指南等信息
+## Unsubscribe
 
-## 用户许可协议
+If you don't want use our product, you just need to [Replace your System Disk](/server-operating.md#reinitialize-disk) to another Image
 
-最终用户许可协议（End User Licence Agreement，EULA），指的是一家公司的软件与软件的使用者所达成的协议，此协议一般出现在软件安装时。如果使用者拒绝接受这家公司的EULA，那么便不能安装此软件。
+## EULA
 
-一旦您同意在华为云上使用Websoft9的镜像，即表示您已经接受了我们的[《用户许可协议》](https://support.websoft9.com/docs/legal/zh/eula)
+EULA (End User Licence Agreement) is a contract between one or more parties based on the proprietary rights of a licensor to grant a right to the licensee to use or access the subject matter of the licence. 
+
+Once you have deployment the image of Websoft9 on HUAWEI CLOUD, that means you have accept [*Websoft9 EULA*](https://support.websoft9.com/docs/legal/eula)

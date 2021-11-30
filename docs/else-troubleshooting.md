@@ -1,21 +1,21 @@
-# 故障处理
+# Troubleshooting
 
-下面列出最常见的故障或设置错误导致的问题。
+Below are the most common problems caused by failures or setup errors.
 
-如果您已经明确问题原因是云服务器产生的，那么请直接阅读[华为云实例故障排查](https://support.huaweicloud.com/trouble-ecs/zh-cn_topic_0171671694.html)。
+If you have identified the problem for the reason is ECS, refer to [FAQ & Troubleshooting](https://support.huaweicloud.com/intl/en-us/trouble-ecs/en-us_topic_0138914423.html).
 
-#### SFTP无法登录？
+#### SFTP can't connect?
 
-检查账号和密码是正确，请保证[服务器安全组](/zh/network-safegroup.md)的22端口是开启的
+Check that the account and ensure that port 22 of [Server Security Group](/network-safegroup.md) is enabled.
 
-#### Windows远程桌面连接失败？
+#### Windows Remote Desktop Connection failed?
 
-检查账号和密码是正确，请保证[服务器安全组](/zh/network-safegroup.md)的3389端口是开启的
+Check that the account and ensure that port 3389 of [Server Security Group](/network-safegroup.md) is enabled.
 
-#### 实例无法重启？
+#### The ECS not be restarted?
 
-请联系华为云官方修复
+Please contact HUAWEI CLOUD to repair it
 
-#### http://公网IP 无法打开软件的初始化界面？
+#### http://public IP can not open the software initialization interface?
 
-检查是否安装了所需的软件，请保证[服务器安全组](/zh/network-safegroup.md)的80端口是开启的
+Make sure software is installed, and the need port is enable at [Server Security Group](/network-safegroup.md)

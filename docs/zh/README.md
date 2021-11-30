@@ -32,4 +32,4 @@ actionLink: /zh/
 ## 改进
 
 本文档会持续改进，广泛吸收用户的需求。  
-如果您有好的想法，请点击页面下方”在Github上编辑“ 给我们反馈，欢迎Fork我们在[Github上的项目](https://github.com/websoft9/alibabacloud-platform)。
+如果您有好的想法，请点击页面下方”在Github上编辑“ 给我们反馈，欢迎Fork我们在[Github上的项目](https://github.com/websoft9/huaweicloud-platform)。
