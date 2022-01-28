@@ -38,7 +38,7 @@ themeConfig: {
   repo: 'Websoft9/huaweicloud-platform',
   editLinks: true,
   docsDir: 'docs',
-  docsBranch: 'master',
+  docsBranch: 'main',
 
   //主题多语言
   locales: {
